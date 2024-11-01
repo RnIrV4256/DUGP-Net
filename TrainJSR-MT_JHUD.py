@@ -312,8 +312,7 @@ class JSR(object):
             ml = ml.astype(np.int8)
 
             seg_dice = self.compute_dice(seg_mi, ml)
-            if seg_dice > 0.5:
-                Seg_Dice.append(seg_dice)
+            Seg_Dice.append(seg_dice)
 
             if not os.path.exists(join(self.results_dir, self.model_name, 'seg')):
                 os.makedirs(join(self.results_dir, self.model_name, 'seg'))
