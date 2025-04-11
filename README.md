@@ -1,2 +1,2 @@
 # JHUD-Net
-This repository is the Pytorch implementation of "Ambiguity-aware Joint High-Uncertainty Disturbance for Semi-supervised MR Image Segmentation"
+This repository is the Pytorch implementation of "Dual-Uncertainty Guided Perturbation for Enhancing Semi-Supervised MRI Segmentation"
